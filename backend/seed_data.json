@@ -1,0 +1,1516 @@
+[
+  {
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+      "username": "patient",
+      "password": "",
+      "first_name": "Olivia",
+      "last_name": "Bennett",
+      "email": "patient@example.com",
+      "role": "patient",
+      "phone": "+1-555-201-4417",
+      "date_of_birth": "1984-06-12",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+      "username": "mgarcia",
+      "password": "",
+      "first_name": "Miguel",
+      "last_name": "Garcia",
+      "email": "miguel.garcia@example.com",
+      "role": "patient",
+      "phone": "+1-555-201-5528",
+      "date_of_birth": "1971-11-03",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 3,
+    "fields": {
+      "username": "ahughes",
+      "password": "",
+      "first_name": "Alice",
+      "last_name": "Hughes",
+      "email": "alice.hughes@example.com",
+      "role": "patient",
+      "phone": "+1-555-201-6639",
+      "date_of_birth": "1958-02-27",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 4,
+    "fields": {
+      "username": "npatel",
+      "password": "",
+      "first_name": "Noah",
+      "last_name": "Patel",
+      "email": "anita.patel@example.com",
+      "role": "patient",
+      "phone": "+1-555-201-7740",
+      "date_of_birth": "2016-09-14",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 5,
+    "fields": {
+      "username": "doctor",
+      "password": "",
+      "first_name": "Eleanor",
+      "last_name": "Whitfield",
+      "email": "doctor@example.com",
+      "role": "doctor",
+      "phone": "+1-555-300-1101",
+      "date_of_birth": "1975-04-18",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 6,
+    "fields": {
+      "username": "dr.okafor",
+      "password": "",
+      "first_name": "Marcus",
+      "last_name": "Okafor",
+      "email": "marcus.okafor@cedarhollowhealth.org",
+      "role": "doctor",
+      "phone": "+1-555-300-1102",
+      "date_of_birth": "1980-08-30",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 7,
+    "fields": {
+      "username": "dr.raman",
+      "password": "",
+      "first_name": "Priya",
+      "last_name": "Raman",
+      "email": "priya.raman@cedarhollowhealth.org",
+      "role": "doctor",
+      "phone": "+1-555-300-1103",
+      "date_of_birth": "1978-01-09",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 8,
+    "fields": {
+      "username": "dr.brooks",
+      "password": "",
+      "first_name": "Daniel",
+      "last_name": "Brooks",
+      "email": "daniel.brooks@cedarhollowhealth.org",
+      "role": "doctor",
+      "phone": "+1-555-300-1104",
+      "date_of_birth": "1969-12-22",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 9,
+    "fields": {
+      "username": "dr.mendes",
+      "password": "",
+      "first_name": "Sofia",
+      "last_name": "Mendes",
+      "email": "sofia.mendes@cedarhollowhealth.org",
+      "role": "doctor",
+      "phone": "+1-555-300-1105",
+      "date_of_birth": "1983-05-16",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 10,
+    "fields": {
+      "username": "dr.lindqvist",
+      "password": "",
+      "first_name": "Hannah",
+      "last_name": "Lindqvist",
+      "email": "hannah.lindqvist@cedarhollowhealth.org",
+      "role": "doctor",
+      "phone": "+1-555-300-1106",
+      "date_of_birth": "1981-10-05",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 11,
+    "fields": {
+      "username": "receptionist",
+      "password": "",
+      "first_name": "Rachel",
+      "last_name": "Dunmore",
+      "email": "receptionist@example.com",
+      "role": "receptionist",
+      "phone": "+1-555-300-1000",
+      "date_of_birth": "1990-03-21",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 12,
+    "fields": {
+      "username": "t.nguyen",
+      "password": "",
+      "first_name": "Tran",
+      "last_name": "Nguyen",
+      "email": "tran.nguyen@cedarhollowhealth.org",
+      "role": "receptionist",
+      "phone": "+1-555-300-1001",
+      "date_of_birth": "1993-07-11",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 1,
+    "fields": {
+      "name": "General Consultation",
+      "description": "Evaluation of new or ongoing health concerns with a family physician.",
+      "duration_minutes": 30,
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 2,
+    "fields": {
+      "name": "Annual Physical Exam",
+      "description": "Comprehensive yearly checkup including vitals, screening and lifestyle review.",
+      "duration_minutes": 45,
+      "display_order": 2,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 3,
+    "fields": {
+      "name": "Pediatric Check-up",
+      "description": "Growth, development and immunization review for children and teens.",
+      "duration_minutes": 30,
+      "display_order": 3,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 4,
+    "fields": {
+      "name": "Dermatology Consultation",
+      "description": "Diagnosis and treatment of skin, hair and nail conditions.",
+      "duration_minutes": 45,
+      "display_order": 4,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 5,
+    "fields": {
+      "name": "Cardiology Review",
+      "description": "Blood pressure, cholesterol and heart health assessment with ECG if needed.",
+      "duration_minutes": 45,
+      "display_order": 5,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 6,
+    "fields": {
+      "name": "Women's Health Exam",
+      "description": "Preventive care, screening and reproductive health counselling.",
+      "duration_minutes": 40,
+      "display_order": 6,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 7,
+    "fields": {
+      "name": "Vaccination and Flu Shot",
+      "description": "Quick nurse-administered seasonal and routine vaccinations.",
+      "duration_minutes": 15,
+      "display_order": 7,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 8,
+    "fields": {
+      "name": "Diabetes Management Visit",
+      "description": "A1C review, medication adjustment and nutrition coaching.",
+      "duration_minutes": 30,
+      "display_order": 8,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 1,
+    "fields": {
+      "user": 5,
+      "display_name": "Dr. Eleanor Whitfield",
+      "specialty": "Family Medicine",
+      "bio": "Board-certified family physician with 18 years of experience in preventive and chronic care.",
+      "photo": "/img/doctor_profiles/doctorprofile-1.jpg",
+      "consultation_minutes": 30,
+      "is_accepting_patients": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 2,
+    "fields": {
+      "user": 6,
+      "display_name": "Dr. Marcus Okafor",
+      "specialty": "Dermatology",
+      "bio": "Treats acne, eczema and skin infections, and performs routine skin cancer screenings.",
+      "photo": "/img/doctor_profiles/doctorprofile-2.jpg",
+      "consultation_minutes": 45,
+      "is_accepting_patients": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 3,
+    "fields": {
+      "user": 7,
+      "display_name": "Dr. Priya Raman",
+      "specialty": "Endocrinology",
+      "bio": "Focuses on type 2 diabetes, thyroid disorders and metabolic health.",
+      "photo": "/img/doctor_profiles/doctorprofile-3.jpg",
+      "consultation_minutes": 30,
+      "is_accepting_patients": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 4,
+    "fields": {
+      "user": 8,
+      "display_name": "Dr. Daniel Brooks",
+      "specialty": "Cardiology",
+      "bio": "Cardiologist specializing in hypertension, lipid management and heart failure prevention.",
+      "photo": "/img/doctor_profiles/doctorprofile-4.jpg",
+      "consultation_minutes": 45,
+      "is_accepting_patients": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 5,
+    "fields": {
+      "user": 9,
+      "display_name": "Dr. Sofia Mendes",
+      "specialty": "Pediatrics",
+      "bio": "Caring pediatrician supporting children from newborn visits through adolescence.",
+      "photo": "/img/doctor_profiles/doctorprofile-5.jpg",
+      "consultation_minutes": 30,
+      "is_accepting_patients": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 6,
+    "fields": {
+      "user": 10,
+      "display_name": "Dr. Hannah Lindqvist",
+      "specialty": "Pulmonology",
+      "bio": "Manages asthma, COPD and chronic cough with spirometry and personalized action plans.",
+      "photo": "/img/doctor_profiles/doctorprofile-6.jpg",
+      "consultation_minutes": 30,
+      "is_accepting_patients": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.openinghours",
+    "pk": 1,
+    "fields": {
+      "weekday": 0,
+      "label": "Monday",
+      "open_time": "08:00:00",
+      "close_time": "17:30:00",
+      "is_closed": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.openinghours",
+    "pk": 2,
+    "fields": {
+      "weekday": 1,
+      "label": "Tuesday",
+      "open_time": "08:00:00",
+      "close_time": "17:30:00",
+      "is_closed": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.openinghours",
+    "pk": 3,
+    "fields": {
+      "weekday": 2,
+      "label": "Wednesday",
+      "open_time": "08:00:00",
+      "close_time": "19:00:00",
+      "is_closed": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.openinghours",
+    "pk": 4,
+    "fields": {
+      "weekday": 3,
+      "label": "Thursday",
+      "open_time": "08:00:00",
+      "close_time": "17:30:00",
+      "is_closed": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.openinghours",
+    "pk": 5,
+    "fields": {
+      "weekday": 4,
+      "label": "Friday",
+      "open_time": "08:00:00",
+      "close_time": "16:00:00",
+      "is_closed": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.openinghours",
+    "pk": 6,
+    "fields": {
+      "weekday": 5,
+      "label": "Saturday",
+      "open_time": "09:00:00",
+      "close_time": "13:00:00",
+      "is_closed": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.openinghours",
+    "pk": 7,
+    "fields": {
+      "weekday": 6,
+      "label": "Sunday",
+      "open_time": null,
+      "close_time": null,
+      "is_closed": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 1,
+    "fields": {
+      "name": "Linda Carver",
+      "email": "linda.carver@example.com",
+      "phone": "+1-555-410-2231",
+      "message": "Do you accept Blue Cross PPO plans for new patients?",
+      "is_handled": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 2,
+    "fields": {
+      "name": "James Whitaker",
+      "email": "j.whitaker@example.com",
+      "phone": "+1-555-410-3342",
+      "message": "I need to move my appointment next week. Is there a Thursday slot?",
+      "is_handled": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 3,
+    "fields": {
+      "name": "Fatima Rahman",
+      "email": "fatima.rahman@example.com",
+      "phone": "",
+      "message": "Can my daughter get her school vaccination records from your office?",
+      "is_handled": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 4,
+    "fields": {
+      "name": "Robert Sinclair",
+      "email": "r.sinclair@example.com",
+      "phone": "+1-555-410-5564",
+      "message": "What are your Saturday hours for walk-in flu shots?",
+      "is_handled": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 5,
+    "fields": {
+      "name": "Olivia Bennett",
+      "email": "patient@example.com",
+      "phone": "+1-555-201-4417",
+      "message": "Could I get a copy of my March lab results sent to my portal?",
+      "is_handled": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 6,
+    "fields": {
+      "name": "Karen Mitchell",
+      "email": "karen.mitchell@example.com",
+      "phone": "+1-555-410-7786",
+      "message": "Is Dr. Raman taking new diabetes patients this fall?",
+      "is_handled": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 7,
+    "fields": {
+      "name": "Samuel Oduya",
+      "email": "samuel.oduya@example.com",
+      "phone": "",
+      "message": "Does the in-house pharmacy deliver to Maple Ridge?",
+      "is_handled": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 8,
+    "fields": {
+      "name": "Beth Alvarado",
+      "email": "beth.alvarado@example.com",
+      "phone": "+1-555-410-9908",
+      "message": "I was billed twice for my last visit. Please review invoice.",
+      "is_handled": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 1,
+    "fields": {
+      "patient": 1,
+      "doctor": 5,
+      "service": 1,
+      "booked_by": 1,
+      "start_time": "2025-02-11T09:00:00Z",
+      "end_time": "2025-02-11T09:30:00Z",
+      "reason": "Headaches and elevated home blood pressure readings",
+      "status": "completed",
+      "checked_in_at": "2025-02-11T08:52:00Z",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 2,
+    "fields": {
+      "patient": 1,
+      "doctor": 6,
+      "service": 4,
+      "booked_by": 11,
+      "start_time": "2025-03-20T14:00:00Z",
+      "end_time": "2025-03-20T14:45:00Z",
+      "reason": "Red, swollen patch on left forearm",
+      "status": "completed",
+      "checked_in_at": "2025-03-20T13:50:00Z",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 3,
+    "fields": {
+      "patient": 1,
+      "doctor": 5,
+      "service": 2,
+      "booked_by": 1,
+      "start_time": "2025-10-14T10:00:00Z",
+      "end_time": "2025-10-14T10:45:00Z",
+      "reason": "Annual physical and blood pressure follow-up",
+      "status": "booked",
+      "checked_in_at": null,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 4,
+    "fields": {
+      "patient": 2,
+      "doctor": 7,
+      "service": 8,
+      "booked_by": 12,
+      "start_time": "2025-03-05T11:00:00Z",
+      "end_time": "2025-03-05T11:30:00Z",
+      "reason": "Quarterly A1C review",
+      "status": "completed",
+      "checked_in_at": "2025-03-05T10:55:00Z",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 5,
+    "fields": {
+      "patient": 3,
+      "doctor": 8,
+      "service": 5,
+      "booked_by": 3,
+      "start_time": "2025-04-08T15:00:00Z",
+      "end_time": "2025-04-08T15:45:00Z",
+      "reason": "High blood pressure medication review",
+      "status": "completed",
+      "checked_in_at": "2025-04-08T14:48:00Z",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 6,
+    "fields": {
+      "patient": 4,
+      "doctor": 9,
+      "service": 3,
+      "booked_by": 11,
+      "start_time": "2025-04-22T08:30:00Z",
+      "end_time": "2025-04-22T09:00:00Z",
+      "reason": "Ear pain and fever for two days",
+      "status": "completed",
+      "checked_in_at": "2025-04-22T08:20:00Z",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 7,
+    "fields": {
+      "patient": 2,
+      "doctor": 6,
+      "service": 1,
+      "booked_by": 2,
+      "start_time": "2025-05-13T13:00:00Z",
+      "end_time": "2025-05-13T13:30:00Z",
+      "reason": "Recurring rash on hands",
+      "status": "cancelled",
+      "checked_in_at": null,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 8,
+    "fields": {
+      "patient": 3,
+      "doctor": 5,
+      "service": 7,
+      "booked_by": 12,
+      "start_time": "2025-10-09T09:15:00Z",
+      "end_time": "2025-10-09T09:30:00Z",
+      "reason": "Seasonal flu shot",
+      "status": "booked",
+      "checked_in_at": null,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 9,
+    "fields": {
+      "patient": 1,
+      "doctor": 10,
+      "service": 1,
+      "booked_by": 1,
+      "start_time": "2025-05-20T10:30:00Z",
+      "end_time": "2025-05-20T11:00:00Z",
+      "reason": "Wheezing and night-time cough",
+      "status": "completed",
+      "checked_in_at": "2025-05-20T10:22:00Z",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 1,
+    "fields": {
+      "appointment": 1,
+      "patient": 1,
+      "doctor": 5,
+      "diagnosis": "Essential hypertension, mild",
+      "summary": "BP 148/94 on repeat. No chest pain. Started Lisinopril 10 mg daily and advised reducing sodium.",
+      "follow_up_instructions": "Log home BP daily. Return in 8 weeks for recheck and basic metabolic panel.",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 2,
+    "fields": {
+      "appointment": 2,
+      "patient": 1,
+      "doctor": 6,
+      "diagnosis": "Cellulitis, left forearm",
+      "summary": "Localized erythema and warmth, no abscess. Prescribed oral antibiotics for 7 days.",
+      "follow_up_instructions": "Return if redness spreads or fever develops. Keep area clean and covered.",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 3,
+    "fields": {
+      "appointment": 4,
+      "patient": 2,
+      "doctor": 7,
+      "diagnosis": "Type 2 diabetes mellitus",
+      "summary": "A1C 7.4%, improved from 8.1%. Continue Metformin 500 mg twice daily with meals.",
+      "follow_up_instructions": "Repeat A1C in 3 months. Schedule dietitian session and annual eye exam.",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 4,
+    "fields": {
+      "appointment": 5,
+      "patient": 3,
+      "doctor": 8,
+      "diagnosis": "Hypertension, controlled",
+      "summary": "BP 126/78 on current regimen. ECG normal. Renewed Lisinopril with three refills.",
+      "follow_up_instructions": "Continue medication. Lipid panel before next visit in 6 months.",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 5,
+    "fields": {
+      "appointment": 6,
+      "patient": 4,
+      "doctor": 9,
+      "diagnosis": "Acute otitis media, right ear",
+      "summary": "Bulging right tympanic membrane, temp 38.3C. Amoxicillin prescribed for 10 days.",
+      "follow_up_instructions": "Give acetaminophen for pain. Call if no improvement within 48 hours.",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 6,
+    "fields": {
+      "appointment": 9,
+      "patient": 1,
+      "doctor": 10,
+      "diagnosis": "Mild persistent asthma",
+      "summary": "Expiratory wheeze, FEV1 82% predicted. Prescribed Albuterol rescue inhaler and trigger plan.",
+      "follow_up_instructions": "Use inhaler as needed. Return in 3 months or sooner if using it more than twice weekly.",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 1,
+    "fields": {
+      "appointment": 1,
+      "patient": 1,
+      "doctor": 5,
+      "product": 2,
+      "medicine_name": "Lisinopril 10 mg tablets",
+      "dosage": "10 mg once daily",
+      "instructions": "Take one tablet every morning with water.",
+      "notes": "Monitor for dry cough and dizziness.",
+      "refills_allowed": 3,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 2,
+    "fields": {
+      "appointment": 2,
+      "patient": 1,
+      "doctor": 6,
+      "product": 1,
+      "medicine_name": "Amoxicillin 500 mg capsules",
+      "dosage": "500 mg three times daily",
+      "instructions": "Take one capsule every 8 hours for 7 days. Finish the course.",
+      "notes": "Take with food if stomach upset occurs.",
+      "refills_allowed": 0,
+      "is_active": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 3,
+    "fields": {
+      "appointment": 9,
+      "patient": 1,
+      "doctor": 10,
+      "product": 7,
+      "medicine_name": "Albuterol HFA inhaler 90 mcg",
+      "dosage": "2 puffs every 4-6 hours as needed",
+      "instructions": "Inhale 2 puffs for wheezing or shortness of breath. Use a spacer.",
+      "notes": "Rinse mouth after use.",
+      "refills_allowed": 2,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 4,
+    "fields": {
+      "appointment": 4,
+      "patient": 2,
+      "doctor": 7,
+      "product": 3,
+      "medicine_name": "Metformin 500 mg tablets",
+      "dosage": "500 mg twice daily",
+      "instructions": "Take one tablet with breakfast and one with dinner.",
+      "notes": "Report persistent nausea or diarrhea.",
+      "refills_allowed": 5,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 5,
+    "fields": {
+      "appointment": 5,
+      "patient": 3,
+      "doctor": 8,
+      "product": 2,
+      "medicine_name": "Lisinopril 10 mg tablets",
+      "dosage": "10 mg once daily",
+      "instructions": "Take one tablet each morning. Do not stop suddenly.",
+      "notes": "Avoid potassium supplements.",
+      "refills_allowed": 3,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 6,
+    "fields": {
+      "appointment": 6,
+      "patient": 4,
+      "doctor": 9,
+      "product": 1,
+      "medicine_name": "Amoxicillin 500 mg capsules",
+      "dosage": "250 mg twice daily",
+      "instructions": "Give half capsule contents in applesauce every 12 hours for 10 days.",
+      "notes": "Pediatric dosing by weight 22 kg.",
+      "refills_allowed": 0,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 7,
+    "fields": {
+      "appointment": 1,
+      "patient": 1,
+      "doctor": 5,
+      "product": 6,
+      "medicine_name": "Vitamin D3 2000 IU softgels",
+      "dosage": "2000 IU once daily",
+      "instructions": "Take one softgel daily with a meal containing fat.",
+      "notes": "Low vitamin D noted on prior labs.",
+      "refills_allowed": 2,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 8,
+    "fields": {
+      "appointment": 4,
+      "patient": 2,
+      "doctor": 7,
+      "product": 6,
+      "medicine_name": "Vitamin D3 2000 IU softgels",
+      "dosage": "2000 IU once daily",
+      "instructions": "Take one softgel daily with breakfast.",
+      "notes": "Recheck 25-OH vitamin D in 6 months.",
+      "refills_allowed": 1,
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "title": "Blue Cross PPO Insurance Card",
+      "category": "insurance",
+      "file": "https://picsum.photos/seed/insurance-card-1/400/400",
+      "content_type": "image/jpeg",
+      "size_bytes": 184320,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "title": "Lipid Panel Results - March 2025",
+      "category": "lab_result",
+      "file": "https://picsum.photos/seed/lipid-panel-2/400/400",
+      "content_type": "application/pdf",
+      "size_bytes": 256412,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "title": "Home Blood Pressure Log",
+      "category": "other",
+      "file": "https://picsum.photos/seed/bp-log-3/400/400",
+      "content_type": "application/pdf",
+      "size_bytes": 98304,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "title": "HbA1c Lab Report",
+      "category": "lab_result",
+      "file": "https://picsum.photos/seed/hba1c-report-4/400/400",
+      "content_type": "application/pdf",
+      "size_bytes": 312876,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 5,
+    "fields": {
+      "user": 3,
+      "title": "Medicare Card Front and Back",
+      "category": "insurance",
+      "file": "https://picsum.photos/seed/medicare-card-5/400/400",
+      "content_type": "image/png",
+      "size_bytes": 402118,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 6,
+    "fields": {
+      "user": 4,
+      "title": "School Immunization Record",
+      "category": "other",
+      "file": "https://picsum.photos/seed/immunization-record-6/400/400",
+      "content_type": "application/pdf",
+      "size_bytes": 145760,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "appointment": 1,
+      "created_by": 11,
+      "description": "Office visit - general consultation",
+      "amount": "120.00",
+      "status": "paid",
+      "due_date": "2025-03-11",
+      "paid_at": "2025-02-12T16:20:00Z",
+      "stripe_session_id": "cs_test_a1Xk9PqLm2TnVw8R",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "appointment": 2,
+      "created_by": 11,
+      "description": "Dermatology consultation",
+      "amount": "185.00",
+      "status": "paid",
+      "due_date": "2025-04-19",
+      "paid_at": "2025-03-24T09:41:00Z",
+      "stripe_session_id": "cs_test_b7Hy3DsFq0ZcUe5J",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "appointment": 9,
+      "created_by": 12,
+      "description": "Pulmonology visit with spirometry",
+      "amount": "215.00",
+      "status": "unpaid",
+      "due_date": "2025-10-31",
+      "paid_at": null,
+      "stripe_session_id": null,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "appointment": 1,
+      "created_by": 11,
+      "description": "Lipid and metabolic lab panel",
+      "amount": "65.00",
+      "status": "unpaid",
+      "due_date": "2025-10-20",
+      "paid_at": null,
+      "stripe_session_id": null,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "appointment": 4,
+      "created_by": 12,
+      "description": "Diabetes management visit",
+      "amount": "140.00",
+      "status": "paid",
+      "due_date": "2025-04-04",
+      "paid_at": "2025-03-07T13:05:00Z",
+      "stripe_session_id": "cs_test_c4Rt6BnWj1KsYd2M",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 6,
+    "fields": {
+      "user": 3,
+      "appointment": 5,
+      "created_by": 11,
+      "description": "Cardiology review with ECG",
+      "amount": "260.00",
+      "status": "unpaid",
+      "due_date": "2025-10-15",
+      "paid_at": null,
+      "stripe_session_id": null,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 7,
+    "fields": {
+      "user": 4,
+      "appointment": 6,
+      "created_by": 11,
+      "description": "Pediatric sick visit",
+      "amount": "95.00",
+      "status": "void",
+      "due_date": "2025-05-22",
+      "paid_at": null,
+      "stripe_session_id": null,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 8,
+    "fields": {
+      "user": 2,
+      "appointment": 7,
+      "created_by": 12,
+      "description": "Late cancellation fee",
+      "amount": "25.00",
+      "status": "unpaid",
+      "due_date": "2025-10-25",
+      "paid_at": null,
+      "stripe_session_id": null,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 1,
+    "fields": {
+      "name": "Amoxicillin 500 mg Capsules (21 ct)",
+      "description": "Penicillin-class antibiotic for bacterial infections. Prescription required.",
+      "price": "14.50",
+      "stock_quantity": 60,
+      "in_stock": true,
+      "image": "/img/products/amoxicillin-500-mg-capsules-21-ct.jpg",
+      "is_prescription_only": true,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 2,
+    "fields": {
+      "name": "Lisinopril 10 mg Tablets (30 ct)",
+      "description": "ACE inhibitor for high blood pressure. Prescription required.",
+      "price": "9.75",
+      "stock_quantity": 120,
+      "in_stock": true,
+      "image": "/img/products/lisinopril-10-mg-tablets-30-ct.jpg",
+      "is_prescription_only": true,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 3,
+    "fields": {
+      "name": "Metformin 500 mg Tablets (60 ct)",
+      "description": "First-line oral medication for type 2 diabetes. Prescription required.",
+      "price": "11.20",
+      "stock_quantity": 90,
+      "in_stock": true,
+      "image": "/img/products/metformin-500-mg-tablets-60-ct.jpg",
+      "is_prescription_only": true,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 4,
+    "fields": {
+      "name": "Cetirizine 10 mg Allergy Relief (30 ct)",
+      "description": "24-hour non-drowsy antihistamine for seasonal allergies.",
+      "price": "8.49",
+      "stock_quantity": 75,
+      "in_stock": true,
+      "image": "/img/products/cetirizine-10-mg-allergy-relief-30-ct.jpg",
+      "is_prescription_only": false,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 5,
+    "fields": {
+      "name": "Ibuprofen 200 mg Tablets (50 ct)",
+      "description": "Pain reliever and fever reducer for aches and inflammation.",
+      "price": "6.99",
+      "stock_quantity": 140,
+      "in_stock": true,
+      "image": "/img/products/ibuprofen-200-mg-tablets-50-ct.jpg",
+      "is_prescription_only": false,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 6,
+    "fields": {
+      "name": "Vitamin D3 2000 IU Softgels (90 ct)",
+      "description": "Daily vitamin D supplement to support bone and immune health.",
+      "price": "12.99",
+      "stock_quantity": 85,
+      "in_stock": true,
+      "image": "/img/products/vitamin-d3-2000-iu-softgels-90-ct.jpg",
+      "is_prescription_only": false,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 7,
+    "fields": {
+      "name": "Albuterol HFA Inhaler 90 mcg",
+      "description": "Rescue inhaler for asthma wheezing and shortness of breath. Prescription required.",
+      "price": "38.00",
+      "stock_quantity": 24,
+      "in_stock": true,
+      "image": "/img/products/albuterol-hfa-inhaler-90-mcg.jpg",
+      "is_prescription_only": true,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 8,
+    "fields": {
+      "name": "Digital Oral Thermometer",
+      "description": "Fast-read digital thermometer with fever alarm and memory.",
+      "price": "15.95",
+      "stock_quantity": 0,
+      "in_stock": false,
+      "image": "/img/products/digital-oral-thermometer.jpg",
+      "is_prescription_only": false,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "fulfillment": "pickup",
+      "delivery_address": "",
+      "phone": "+1-555-201-4417",
+      "notes": "Pick up at the clinic pharmacy counter.",
+      "delivery_fee": "0.00",
+      "total_amount": "9.75",
+      "is_prescription_order": true,
+      "prescribing_doctor": 5,
+      "approval_status": "approved",
+      "status": "packed",
+      "paid_at": "2025-09-02T11:15:00Z",
+      "stripe_session_id": "cs_test_d9Qa2LpXv5BmNe7T",
+      "stock_taken": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "fulfillment": "delivery",
+      "delivery_address": "214 Juniper Lane, Cedar Hollow, OR 97031",
+      "phone": "+1-555-201-4417",
+      "notes": "Leave with front porch neighbor if no answer.",
+      "delivery_fee": "4.50",
+      "total_amount": "34.47",
+      "is_prescription_order": false,
+      "prescribing_doctor": null,
+      "approval_status": "not_required",
+      "status": "delivered",
+      "paid_at": "2025-08-14T15:30:00Z",
+      "stripe_session_id": "cs_test_e3Wn8ZtGh4RkYc1B",
+      "stock_taken": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "fulfillment": "delivery",
+      "delivery_address": "214 Juniper Lane, Cedar Hollow, OR 97031",
+      "phone": "+1-555-201-4417",
+      "notes": "Refill of rescue inhaler.",
+      "delivery_fee": "4.50",
+      "total_amount": "42.50",
+      "is_prescription_order": true,
+      "prescribing_doctor": 10,
+      "approval_status": "pending",
+      "status": "received",
+      "paid_at": "2025-09-18T08:45:00Z",
+      "stripe_session_id": "cs_test_f6Jd1VmPs9QxLa3U",
+      "stock_taken": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "fulfillment": "pickup",
+      "delivery_address": "",
+      "phone": "+1-555-201-5528",
+      "notes": "",
+      "delivery_fee": "0.00",
+      "total_amount": "22.47",
+      "is_prescription_order": false,
+      "prescribing_doctor": null,
+      "approval_status": "not_required",
+      "status": "delivered",
+      "paid_at": "2025-07-21T10:10:00Z",
+      "stripe_session_id": "cs_test_g2Ho5YrKb7TcWn4D",
+      "stock_taken": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 5,
+    "fields": {
+      "user": 3,
+      "fulfillment": "delivery",
+      "delivery_address": "58 Hawthorn Court, Cedar Hollow, OR 97031",
+      "phone": "+1-555-201-6639",
+      "notes": "Please ring the doorbell twice.",
+      "delivery_fee": "4.50",
+      "total_amount": "33.75",
+      "is_prescription_order": true,
+      "prescribing_doctor": 8,
+      "approval_status": "approved",
+      "status": "out_for_delivery",
+      "paid_at": "2025-09-17T14:02:00Z",
+      "stripe_session_id": "cs_test_h8Lp3XqNd6VeSm9F",
+      "stock_taken": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 6,
+    "fields": {
+      "user": 4,
+      "fulfillment": "pickup",
+      "delivery_address": "",
+      "phone": "+1-555-201-7740",
+      "notes": "Parent will collect.",
+      "delivery_fee": "0.00",
+      "total_amount": "15.95",
+      "is_prescription_order": false,
+      "prescribing_doctor": null,
+      "approval_status": "not_required",
+      "status": "pending_payment",
+      "paid_at": null,
+      "stripe_session_id": null,
+      "stock_taken": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 1,
+    "fields": {
+      "order": 1,
+      "product": 2,
+      "prescription": 1,
+      "medicine_name": "Lisinopril 10 mg Tablets (30 ct)",
+      "quantity": 1,
+      "unit_price": "9.75",
+      "is_out_of_stock": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 2,
+    "fields": {
+      "order": 2,
+      "product": 4,
+      "prescription": null,
+      "medicine_name": "Cetirizine 10 mg Allergy Relief (30 ct)",
+      "quantity": 2,
+      "unit_price": "8.49",
+      "is_out_of_stock": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 3,
+    "fields": {
+      "order": 2,
+      "product": 6,
+      "prescription": null,
+      "medicine_name": "Vitamin D3 2000 IU Softgels (90 ct)",
+      "quantity": 1,
+      "unit_price": "12.99",
+      "is_out_of_stock": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 4,
+    "fields": {
+      "order": 3,
+      "product": 7,
+      "prescription": 3,
+      "medicine_name": "Albuterol HFA Inhaler 90 mcg",
+      "quantity": 1,
+      "unit_price": "38.00",
+      "is_out_of_stock": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  }
+]

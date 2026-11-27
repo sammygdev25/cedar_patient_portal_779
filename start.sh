@@ -1,0 +1,83 @@
+#!/bin/bash
+set -e
+echo "=== Starting cedar_patient_portal_779 ==="
+
+# Backend
+cd /workspace/backend
+
+# Database: the environment's DATABASE_URL, else a local PostgreSQL for this preview (never for production).
+if [ -z "${DATABASE_URL:-}" ]; then
+    echo "Starting local PostgreSQL..."
+    bash scripts/local-postgres.sh
+fi
+
+echo "Installing Python dependencies..."
+pip install -r requirements.txt --quiet 2>/dev/null
+
+echo "Running migrations..."
+python manage.py makemigrations api --noinput 2>&1 || true
+python manage.py migrate --noinput 2>&1
+
+echo "Collecting static files..."
+python manage.py collectstatic --noinput 2>/dev/null || true
+
+if [ "${SEED_DEMO:-0}" = "1" ]; then
+echo "SEED_DEMO=1: loading seed data and this app's sign-ins (never set this in production)"
+echo "Making the sign-up account (pk=1) BEFORE the seed loads so its links resolve..."
+SEED_STEP=before python manage.py shell < seed_accounts.py 2>&1 || echo "WARNING: the sign-up account was not made"
+echo "Loading seed data..."
+if python manage.py loaddata seed_data.json 2>&1; then
+    echo "Seed data loaded successfully"
+else
+    echo "WARNING: seed data failed to load (see errors above)"
+fi
+
+echo "Setting up this app's sign-ins..."
+python manage.py shell < seed_accounts.py 2>&1 || echo "WARNING: the sign-ins were not set up"
+else
+echo "SEED_DEMO is not 1: skipping the seed data and sign-ins"
+fi
+echo "Starting Django on port 8000..."
+daphne -b 0.0.0.0 -p 8000 config.asgi:application &
+BACKEND_PID=$!
+
+# Start Celery worker + beat (if Redis is reachable)
+if python -c "import redis; redis.Redis.from_url('${CELERY_BROKER_URL:-redis://localhost:6379/0}').ping()" 2>/dev/null; then
+    echo "Starting Celery worker..."
+    celery -A config worker --loglevel=info --concurrency=2 -D
+    echo "Starting Celery beat..."
+    celery -A config beat --loglevel=info -D
+else
+    echo "Redis not available -- Celery worker/beat skipped"
+fi
+
+# Health check -- wait for Django before starting React
+echo "Waiting for Django..."
+for i in $(seq 1 30); do
+    if curl -sf http://localhost:8000/health/ > /dev/null 2>&1; then
+        echo "Django is ready!"
+        break
+    fi
+    if [ $i -eq 30 ]; then
+        echo "WARNING: Django health check timed out"
+    fi
+    sleep 1
+done
+
+# Frontend
+cd /workspace/frontend
+echo "Installing Node dependencies..."
+npm install --legacy-peer-deps --silent 2>/dev/null
+
+echo "Starting React on port 3000..."
+npm run dev &
+FRONTEND_PID=$!
+
+echo ""
+echo "========================================="
+echo "  Backend:  http://localhost:8000"
+echo "  Frontend: http://localhost:3000"
+echo "  API:      http://localhost:8000/api/"
+echo "========================================="
+
+wait $BACKEND_PID $FRONTEND_PID
